@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Reeport</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <video autoplay muted loop id="myvideo">
+        <source src="img/mainbg.mp4" type="video/mp4">
+    </video>
+
+
+</div>
+
+
+
+    <div class="card">
+
+        <div class="search">
+            <input type="text" placeholder="City Name" spellcheck="false" class="searchBox">
+            <button class="btn"><img src="./img/search.png" alt="search "></button>
+        </div>
+
+        <div class="error">
+            <p>Invalid City Name </p>
+        </div>
+
+        <div class="weather">
+            <img src="./img/rain2.png" class="weathericon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New Delhi</h2>
+
+            <div class="detail">
+
+                <div class="col">
+                    <img src="./img/h4.png" alt="">
+                </div>
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+
+                <div class="col">
+                    <img src="./img/wind2.png" alt="">
+                </div>
+                <div>
+                    <p class="wind">15 Km/h</p>
+                    <p>Wind Speed </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
